@@ -1,0 +1,26 @@
+@import "../variables/variables";
+.imagen-contacto{
+    img{
+        width: 85%;
+    }
+}
+.pantera{
+    width: 70%;
+    margin: auto;
+}
+.col-lg-6{
+    margin-top: 15px;
+    width: 90%;
+}
+.btn-group{
+    a{
+        text-decoration: none;
+    }
+}
+
+.efecto-pages-men :hover {-webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.efecto-pages-men{
+    overflow: hidden;
+}
+

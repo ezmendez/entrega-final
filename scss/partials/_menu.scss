@@ -1,0 +1,28 @@
+@import "../variables/variables";
+
+nav div a img{
+    width: 60px;
+    
+}
+.menu-principal{
+    ul :hover{
+        background-color: $color-principal;
+    }
+}
+.panel{
+    button{
+        border: none;
+    }
+    button :hover{
+        color: $color-secundario;
+        text-transform:capitalize;
+    }
+}
+// esto lo realice para que al reducir la pantalla el logo quede mas grande porque en el responsive, se iba achicando por utilizar un width con %
+@media screen and (max-width: 991px){
+    nav div a img{
+        width: 100px;
+        display: flex;
+        margin: auto;
+    }
+}

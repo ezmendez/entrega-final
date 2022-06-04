@@ -1,0 +1,32 @@
+@import "../variables/variables";
+
+@media screen and (max-width: 991px){
+    .container{
+        display: flex;
+        flex-direction: column;  
+     footer img{
+         width: 28px;
+         height: 28px;
+     }   
+    }
+}
+@media screen and (max-width: 515px){
+    footer{
+        align-items: center;
+        margin: auto;
+        img{
+            width: 36px;
+            height: 36px;
+        }; 
+        span{
+            text-align: center;
+            margin: auto;
+        }
+    }
+}
+div footer ul{
+    margin: auto;
+}
+.col-md-4{
+    margin: auto;
+}

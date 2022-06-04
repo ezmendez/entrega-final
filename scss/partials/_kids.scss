@@ -1,0 +1,13 @@
+@import "../variables/variables";
+
+.text-center{
+    img :hover {filter: sepia(40%);}
+}
+@media screen and (min-width: 1020px){
+    main{
+        margin: auto;
+        width: 70%;
+        color: black;
+    }
+    
+}
